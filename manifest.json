@@ -1,0 +1,25 @@
+{
+  "id": "/archery-lab",
+  "name": "Archery Lab – Ανάλυση Τεχνικής",
+  "short_name": "Archery Lab",
+  "description": "Video analysis τεχνικής αθλητών τοξοβολίας: καταγραφή, αργή κίνηση καρέ προς καρέ και σημειώσεις πάνω στο βίντεο.",
+  "lang": "el",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0a0d11",
+  "theme_color": "#111111",
+  "categories": ["sports", "education", "utilities"],
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "screenshots": [
+    {"src": "screenshot-narrow.png", "sizes": "412x880", "type": "image/png", "form_factor": "narrow", "label": "Αρχική οθόνη"},
+    {"src": "screenshot-wide.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide", "label": "Αρχική οθόνη"}
+  ]
+}
